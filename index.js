@@ -20,17 +20,11 @@ var uppercase = "";
 var lowercase = "";
 
 function sayHiToGrandma(string) {
-  if(string.toLowerCase()) {
+  if(string.toLowerCase() == ) {
   return "I can't hear you!"
   }
-}
- 
-  function sayHiToGrandma(string) {
-  if(string.toUpperCase()) {
+  
+   if(string.toUpperCase()) {
   return "YES INDEED!"
   }
-  }
-  
-
-
-logShout("Ali en Mandy")
+}
