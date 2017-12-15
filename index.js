@@ -21,11 +21,11 @@ var lowercase = "I can't hear you!";
 
 function sayHiToGrandma(string) {
   
-  if(string.toLowerCase() == lowercase) {
+  if(string.toLowerCase() === lowercase) {
   return lowercase
   }
   
-   if(string.toUpperCase() == uppercase) {
+   if(string.toUpperCase() === uppercase) {
   return uppercase
   }
 }
